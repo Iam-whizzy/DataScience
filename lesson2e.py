@@ -37,3 +37,10 @@ tensors = [[1,2], 3, [4,[5,6,[7,8]]]]
 print(tensors[2][1][1])
 print(tensors[2][1][2][1])
 print(tensors[1])
+
+#RANGE 
+# ADD AN ITEM 
+# ADD AN ITEM AT POSITION 
+# REPLACE/UPDATE 
+# DELETE AN ITEM 
+# DELETE AN ITEM AT SPECIFIC POSITION
