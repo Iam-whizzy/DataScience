@@ -1,4 +1,4 @@
-#LIST DDATA TYPES: Used to store collection of values on the same variable
+#LIST DATA TYPES: Used to store collection of values on the same variable
 
 #Bad Scenario
 county1 = "Nairobi"
@@ -21,15 +21,22 @@ print(counties[0])
 print(student[4][1])
 
 #Task:
-customer = ['Derrick', ["Nairobi", 'Kisumu', 'Kilifi'],['derrick69@gmail.com', ['0701234567', '0786112345']]]
+customer = ['Derrick', 'Derrick', ["Nairobi", 'Kisumu','Kisumu', 'Kilifi'],['derrick69@gmail.com', ['0701234567', '0786112345']]]
 #Using Indexing:
 #a) Access the email
 #b) Access all the contacts
 #c) Access Kisumu
 
-print(customer[1][1])
-print(customer[2][0])
-print(customer[2][1][0])
+customer_clean = []
+for item in customer:
+    if item not in customer_clean:
+        customer_clean.append(item)
+        
+print(customer_clean)
+
+#print(customer[1][1])
+#print(customer[2][0])
+#print(customer[2][1][0])
 
 tensors = [[1,2], 3, [4,[5,6,[7,8]]]]
 #Access 6, 8, 3
@@ -37,6 +44,11 @@ tensors = [[1,2], 3, [4,[5,6,[7,8]]]]
 print(tensors[2][1][1])
 print(tensors[2][1][2][1])
 print(tensors[1])
+
+tensors.append(10)
+print (tensors)
+
+print(tensors[0:1])
 
 #RANGE 
 # ADD AN ITEM 
