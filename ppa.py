@@ -8,7 +8,7 @@ person = {
     'email_address': 'johndoe33@gmail.com',
     'phone_numbers' : ['0701234567', '0789000678']
 }
-print(person['sex'])
+print(person['age'])
 print(person['phone_numbers'])
 
 for counter in range(5):
@@ -22,3 +22,8 @@ print (calc.add(10, 2))
 print (calc.substract(10, 2))
 
 
+#Reversing a list
+lst = [10, 2, 4, 5, 7]
+lst.reverse()
+
+print ("The reverse is", lst)
