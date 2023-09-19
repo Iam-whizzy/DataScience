@@ -8,7 +8,7 @@ person = {
     'email_address': 'johndoe33@gmail.com',
     'phone_numbers' : ['0701234567', '0789000678']
 }
-print(person['age'])
+print(person['sex'])
 print(person['phone_numbers'])
 
 for counter in range(5):

@@ -4,7 +4,7 @@ print ("Welcome to Python for Data Science")
 #Ignored
 #Variables: Stored Values
 course = "Artificial Intelligence"
-cost = 2000
+cost = 200000
 
 print (course, cost)
 print(f"The {course} course will cost you KES {cost}")
