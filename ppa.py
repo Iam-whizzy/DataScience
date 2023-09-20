@@ -27,3 +27,5 @@ lst = [10, 2, 4, 5, 7]
 lst.reverse()
 
 print ("The reverse is", lst)
+
+print("The reverse list", list(reversed(lst)))
