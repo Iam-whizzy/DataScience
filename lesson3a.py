@@ -49,7 +49,22 @@ languages.insert(2, "C")
 
 languages[1] = "Python 3"
 
+#Delete:
+#1. pop() -> Delete the last item 
+languages.pop()
+languages.pop()
 
-
+#2. Remove item with position
+languages.pop(0)
 
 print(languages)
+
+#Remove by name
+languages.remove("Kotlin")
+print(languages)
+
+#Delete all items -> clear()
+languages.clear()
+print(languages)
+
+#CRUD: Create, Read, Update, Delete
